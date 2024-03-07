@@ -1,0 +1,44 @@
+/* 设置基本的字体和背景 */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* 限制主要内容的宽度并在屏幕中居中显示 */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 为标题设置风格 */
+h1, h2, h3, h4, h5, h6 {
+    color: #35495e;
+}
+
+/* 段落样式 */
+p {
+    margin-bottom: 1em;
+}
+
+/* 设置链接样式 */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 添加一些响应式设计的元素 */
+@media (max-width: 800px) {
+    .container {
+        width: auto;
+        padding: 10px;
+    }
+}
