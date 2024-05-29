@@ -146,6 +146,12 @@ ul li, ol li {
     font-weight: bold;
 }
 
+.paper-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #b0e1ff;
+}
+
 ul li::before {
     content: "•";
     color: #64b5f6;
